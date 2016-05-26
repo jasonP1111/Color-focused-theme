@@ -2,6 +2,16 @@
 
 By Jason Poon
 
+**************************************************** Special THANKS TO  *********************************************
+
+    Rolando B Zabala II (https://github.com/rolo298github/first-custom-theme) who contributed the first theme and help me use it as a reference
+
+                and of course MIT
+
+****************************************************** END **********************************************************
+
+
+
 Colors in this Theme are selected carefully to give the user a calming effect but also a energetic and focus effect.
 
 The Color skyblue is suppose to represent water that is for calming, white the orange and yellow represent focus.
