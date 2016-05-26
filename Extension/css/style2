@@ -1,0 +1,557 @@
+/* line 8, ../SCSS/_mixins.scss */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 12, ../SCSS/_mixins.scss */
+.message, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+/* line 18, ../SCSS/_mixins.scss */
+.success {
+  border-color: green;
+}
+
+/* line 4, ../SCSS/_typography.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #333333;
+}
+
+/* line 12, ../SCSS/_typography.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 16, ../SCSS/_typography.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 19, ../SCSS/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 22, ../SCSS/_typography.scss */
+h3 {
+  font-size: 1.3em;
+}
+
+/* line 25, ../SCSS/_typography.scss */
+h4 {
+  font-size: 1em;
+}
+
+/* line 30, ../SCSS/_typography.scss */
+.home-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+/* line 40, ../SCSS/_typography.scss */
+.home-h1 {
+  color: #33ccff;
+  font-size: 4.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 49, ../SCSS/_typography.scss */
+.home-h1 > span {
+  color: white;
+}
+
+/* line 53, ../SCSS/_typography.scss */
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+/* line 59, ../SCSS/_typography.scss */
+.parallax {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 67, ../SCSS/_typography.scss */
+.parallax-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 77, ../SCSS/_typography.scss */
+#home {
+  background-image: url(../img/showcase-1.jpg);
+  padding: 160px 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../SCSS/_navbar.scss */
+.navbar-default {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 7, ../SCSS/_navbar.scss */
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.5em;
+}
+
+/* line 13, ../SCSS/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #333333;
+}
+/* line 16, ../SCSS/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #33ccff;
+}
+
+/* line 1, ../SCSS/_buttons.scss */
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+/* line 12, ../SCSS/_buttons.scss */
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  color: #999999;
+}
+/* line 19, ../SCSS/_buttons.scss */
+.btn-dark:hover, .btn-dark:focus {
+  background: #000;
+  color: white;
+}
+
+/* line 25, ../SCSS/_buttons.scss */
+.btn-cta {
+  background-color: #33ccff;
+  color: white;
+}
+/* line 31, ../SCSS/_buttons.scss */
+.btn-cta:hover, .btn-cta:focus {
+  background-color: deepskyblue;
+  color: white;
+}
+
+/* line 37, ../SCSS/_buttons.scss */
+.btn-cta-o {
+  color: white;
+  border: 1px solid white;
+}
+/* line 43, ../SCSS/_buttons.scss */
+.btn-cta-o:hover, .btn-cta-o:focus {
+  background-color: white;
+  color: #333333;
+}
+
+/* line 1, ../SCSS/_forms.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+/* line 6, ../SCSS/_forms.scss */
+label {
+  font-weight: 200;
+}
+
+/* line 10, ../SCSS/_forms.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #999999;
+  background: white;
+  transition: all 200ms ease-in;
+}
+
+/* line 19, ../SCSS/_forms.scss */
+.form-control:focus {
+  background: #cccccc;
+  border-color: #999999;
+}
+
+/* line 1, ../SCSS/_other.scss */
+#home {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 6, ../SCSS/_other.scss */
+#cta-1 {
+  background-color: #cccccc;
+  padding: 40px 0;
+}
+
+/* line 11, ../SCSS/_other.scss */
+#testimonials {
+  background-color: #333333;
+}
+
+/* line 15, ../SCSS/_other.scss */
+#cta-2 {
+  background-color: #33ccff;
+  padding: 40px 0;
+}
+
+/* line 20, ../SCSS/_other.scss */
+#services {
+  background-color: #333333;
+}
+
+/* line 24, ../SCSS/_other.scss */
+#cta-3 {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 29, ../SCSS/_other.scss */
+#footer {
+  background-color: #333333;
+}
+
+/* line 34, ../SCSS/_other.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 39, ../SCSS/_other.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 47, ../SCSS/_other.scss */
+.color-reverse,
+.color-reverse h2,
+.color-reverse h3,
+.color-reverse .icon {
+  color: white;
+}
+
+/* line 52, ../SCSS/_other.scss */
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: white;
+}
+
+/* line 56, ../SCSS/_other.scss */
+.icon {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1.42857;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #33ccff;
+}
+
+/* line 67, ../SCSS/_other.scss */
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #33ccff;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+
+/* line 76, ../SCSS/_other.scss */
+.icon:before {
+  left: 0;
+}
+
+/* line 80, ../SCSS/_other.scss */
+.icon:after {
+  right: 0;
+}
+
+/* line 84, ../SCSS/_other.scss */
+.icon-bg {
+  color: white;
+}
+
+/* line 89, ../SCSS/_other.scss */
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: white;
+}
+
+/* line 93, ../SCSS/_other.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #999999;
+  border-radius: 50%;
+  background-color: #cccccc;
+}
+
+/* line 102, ../SCSS/_other.scss */
+.services-col {
+  color: #33ccff;
+}
+
+/* line 106, ../SCSS/_other.scss */
+.services-col h3 {
+  color: #33ccff;
+  margin-top: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1.75em;
+}
+
+/* line 114, ../SCSS/_other.scss */
+.services-col p {
+  color: #999999;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+/* line 121, ../SCSS/_other.scss */
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: #33ccff;
+  border-radius: 35px;
+  margin-bottom: 10px;
+}
+
+/* line 132, ../SCSS/_other.scss */
+.contact-hours .fa {
+  color: #33ccff;
+}
+
+/* line 136, ../SCSS/_other.scss */
+.social-channels .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #999999;
+  background-color: #cccccc;
+  margin-bottom: 10px;
+}
+
+/* line 146, ../SCSS/_other.scss */
+.author {
+  color: #33ccff;
+  font-size: 1.1em;
+}
+
+/* line 151, ../SCSS/_other.scss */
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 157, ../SCSS/_other.scss */
+.item-img-wrap img {
+  transition: all 200ms linear;
+}
+
+/* line 160, ../SCSS/_other.scss */
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 167, ../SCSS/_other.scss */
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/plus.png) no-repeat center center rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 250ms linear;
+}
+
+/* line 178, ../SCSS/_other.scss */
+.item-img-wrap:hover .item-img-overlay span {
+  opacity: 1;
+}
+
+/* line 181, ../SCSS/_other.scss */
+.item-img-wrap:hover img {
+  transform: scale(1.1);
+}
+
+/* line 185, ../SCSS/_other.scss */
+.about-col {
+  margin-bottom: 40px;
+}
+
+/* line 188, ../SCSS/_other.scss */
+.team-col {
+  margin-bottom: 40px;
+}
+
+/* line 191, ../SCSS/_other.scss */
+.services-col {
+  margin-bottom: 40px;
+}
+
+/* line 194, ../SCSS/_other.scss */
+.portfolio-col {
+  margin-bottom: 40px;
+}
+
+/* line 197, ../SCSS/_other.scss */
+.facts-col {
+  margin-bottom: 40px;
+}
+
+/* line 200, ../SCSS/_other.scss */
+.blog-col {
+  margin-bottom: 40px;
+}
+
+/* line 204, ../SCSS/_other.scss */
+.blog-col span {
+  color: #999999;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* line 211, ../SCSS/_other.scss */
+.services-col {
+  color: #33ccff;
+  text-align: center;
+}
+
+/* line 216, ../SCSS/_other.scss */
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 999999;
+  display: none;
+  background: #33ccff;
+  opacity: 0.5;
+  -webkit-transform: all 0.3s;
+  -moz-transform: all 0.3s;
+  transform: all 0.3s;
+}
+
+/* line 234, ../SCSS/_other.scss */
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: white;
+}
+
+/* line 240, ../SCSS/_other.scss */
+.parallax {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 248, ../SCSS/_other.scss */
+.parallax-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 259, ../SCSS/_other.scss */
+#home {
+  background-image: url(../img/showcase-1.jpg);
+  padding: 160px 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 266, ../SCSS/_other.scss */
+#testimonials {
+  background: url(../img/showcase-3.jpg);
+  padding: 80px 0;
+}
+
+/* line 271, ../SCSS/_other.scss */
+#services {
+  background: url(../img/showcase-2.jpg);
+  padding: 80px 0;
+}
+
+/* line 276, ../SCSS/_other.scss */
+#facts {
+  background: url(../img/showcase-5.jpg);
+  padding: 80px 0;
+}
+
+/* line 281, ../SCSS/_other.scss */
+.main-flex-slider {
+  overflow: hidden;
+}
