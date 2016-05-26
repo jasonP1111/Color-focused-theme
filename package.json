@@ -4,7 +4,7 @@
     "description": "This is the first theme that I created.",
     "homepage": "https://github.com/jasonP1111/jason-theme",
     "version": "1.0.0",
-    "author": "Jason Poon jpoon@mail.ccsf.edu (https://github.com/jasonP1111/jason-themes)",
+    "author": "Jason Poon jaypoon1984@gmail.com (https://github.com/jasonP1111/jason-themes)",
     "license": "MIT",
     "theme": {
         "file": "theme.less",
