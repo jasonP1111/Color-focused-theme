@@ -1,9 +1,9 @@
 {
-    "name": "Color-focused-theme-master",
+    "name": "color-focused-theme-master",
     "title": "Cool Colors Theme",
     "description": "This is the first theme that I created.",
     "homepage": "https://github.com/jasonP1111/jason-theme",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "Jason Poon jaypoon1984@gmail.com (https://github.com/jasonP1111/jason-themes)",
     "license": "MIT",
     "theme": {
@@ -11,5 +11,5 @@
         "dark": true,
         "addModeClass": true
     },
-    "keywords": ["theme, jason, jason's, My, cool, theme, first, theme"]
+    "keywords": ["color, cool , focused, theme, color-focused, color-focused-theme, jason, jason's, My, cool, theme, first, theme, Cool Colors Theme"]
 }
