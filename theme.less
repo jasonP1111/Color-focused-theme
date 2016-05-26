@@ -46,12 +46,19 @@
 
 
 /* Define some variables used in multiple places */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
 @background: #5A5B5C;       //Changed value of background to dark navy from black.
 @foreground: #CACECF;       //Changed value of foreground reg text to dark navy from black.
 
 
 /* Code Styling */
 //Brackets color scheme when it boots up with NO FILE Active.
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 //Background & Foreground
 .CodeMirror, .CodeMirror-scroll {
@@ -96,7 +103,7 @@
 .cm-header {color: #d85896;}
 .cm-link {color: #b77fdb; text-decoration: underline;}
 .cm-rangeinfo {color: #6c71c4;}
-.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: #26CED1;}     //Keywords
+.cm-keyword, .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: #1FC1C4;}     //Keywords
 .cm-tag {color: #61C454;}               //html tag editor
 .cm-m-javascript.cm-variable, .cm-m-javascript.cm-variable-2 { color: #C2C93A ;}
 .cm-m-javascript.cm-string { color: #fff;}
